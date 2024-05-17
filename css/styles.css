@@ -1,0 +1,105 @@
+body {
+    /* Establecer la imagen de fondo */
+    /* background-image: url('../assets/img/Imagen_fondo.png'); */
+
+
+    /* Ajustar el tamaño de la imagen de fondo */
+    background-size: cover;
+    /* Cubrir todo el área del cuerpo */
+    background-repeat: no-repeat;
+    /* No repetir la imagen */
+    background-attachment: fixed;
+    /* Fijar la imagen para que no se desplace con el contenido */
+}
+
+
+/* Personalización adicional */
+.navbar-custom {
+    background-color: #026384;
+    /* Fondo azul oscuro */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff;
+    /* Texto blanco */
+}
+
+.navbar-custom .navbar-toggler-icon {
+    color: #fff;
+    /* Ícono del botón de menú blanco */
+}
+
+/* Opcional: Estilo para el enlace activo */
+.navbar-custom .nav-item.active .nav-link {
+    font-weight: bold;
+}
+
+/*Imagen de fondo*/
+header {
+    background-image: url('../assets/img/Imagen_fondo.png');
+    background-size: 100% 100%;
+    /* Ajusta la imagen al tamaño completo del contenedor */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    padding: 0;
+    /* Ajusta el relleno según sea necesario */
+    box-sizing: border-box;
+    /* Otros estilos personalizados según sea necesario */
+}
+
+/*Fuente de toda la página */
+body {
+    font-family: 'Ubuntu Sans', sans-serif;
+}
+
+h1, h2, h3, p, li {
+    font-family: 'Ubuntu Sans', sans-serif;
+}
+
+
+
+/*Texto de dos colores: Optimización de Sistemas */
+.display-4 {
+    color: #00B0CC;
+}
+
+.display-5 {
+    color: #fff;
+}
+
+/* Estilos y modificaciones del boton de "Más información" */
+.btn-custom {
+    background-color: #026384;
+    /* Cambio de color de fondo */
+    border-radius: 500px;
+    border-color: transparent;
+    /* Color del borde del botón */
+    color: white;
+    /* Color del texto en el botón */
+    transition: 0.5s;
+    width: 150px;
+    /* Modifica el ancho del botón */
+    height: 50px;
+    /* Modifica la altura del botón */
+}
+
+
+.bg-azul-custom {
+    background-color: #026384;
+}
+
+.subtitle-custom {
+    font-size: 24px;
+}
+.text-bold-custom{
+    font-weight: bold;
+}
+.text-blue{
+    color: #00B0CC;
+}
+.text-blue-dark{
+    color: #026384;
+}
+
