@@ -1,7 +1,5 @@
 body {
     /* Establecer la imagen de fondo */
-    /* background-image: url('../assets/img/Imagen_fondo.png'); */
-
 
     /* Ajustar el tamaño de la imagen de fondo */
     background-size: cover;
@@ -13,7 +11,7 @@ body {
 }
 
 
-/* Personalización adicional */
+
 .navbar-custom {
     background-color: #026384;
     /* Fondo azul oscuro */
@@ -21,7 +19,7 @@ body {
 
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
-    color: #00B0CC;
+    color: #fff;
     /* Texto blanco */
 }
 
@@ -54,7 +52,7 @@ body {
     font-family: 'Ubuntu Sans', sans-serif;
 }
 
-h1, h2, h3, p, li {
+h1, h2, h3, h5, p, li {
     font-family: 'Ubuntu Sans', sans-serif;
 }
 
